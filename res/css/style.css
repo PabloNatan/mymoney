@@ -1,0 +1,88 @@
+* {
+	padding: 0;
+	margin: 0;}
+body{
+	font-size: 16px;}
+
+header {
+	padding: 0.5em 0;
+	background-color: #315E42;
+	overflow: hidden;
+	width: 100%;}
+h1{
+	float: left;
+	color: #dedede;
+	font-family: 'Roboto';
+	word-spacing: 0.5em;
+	font-size: 2em}
+
+.fas {
+	margin-right: 0.5em;}
+
+.gap {
+	width: 90%;
+	margin: 0 5%;}
+
+
+/************* Page Login **************/
+.box-login{
+	border: 1px solid #dedede;
+	width: 30%;
+	margin: 2em 35%;
+	border-radius: 10px;}
+
+.head-login{
+	background-color: #efefef;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	padding: 0.5em 0 0.5em 0.5em;
+	font-family: 'Roboto';
+	color: rgba(0,0,0,0.7);
+	margin-bottom: 2em;}
+
+.input-login{
+	display: block;
+	width: 80%;
+	margin: 1.5em 10%;
+	border-radius: 5px;
+	padding: 0.5em;
+	border: 1px solid #dedede;}
+
+.input-login:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);}
+
+.submit-login{
+	width: 40%;
+	margin: 1em 30%;
+	padding: 0.8em;
+	text-transform: uppercase;
+	color: #FFF;
+	background-color: #315E42;
+	border: none;
+	border-radius: 6px;
+	font-weight: bolder;}
+
+/************* Home Page ************/
+nav {
+	float: right;}
+
+nav i{
+	font-size: 1em;
+	margin-right: 0.3em;}
+
+li {
+	list-style-type: none;
+	display: inline-block;}
+
+a{
+	text-decoration: none;
+	color:#dedede;
+	font-family: Roboto;
+	padding-right: 0.8em;
+	text-transform: uppercase;
+	line-height: 2em;
+	font-size: 1.1em;}
